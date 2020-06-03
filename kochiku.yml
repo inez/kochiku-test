@@ -1,0 +1,10 @@
+git_strategy: s3_bundle
+test_command: '/usr/bin/true'
+
+targets:
+  - type: tests
+
+build_artifacts:
+  inez-test:
+    distributions:
+      - el7
